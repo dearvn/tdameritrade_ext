@@ -5,6 +5,9 @@ and my application has generated over 11k tokens in the last few hours when I us
 maybe when I send a get request to TDA then a token generated so TD Ameritrade API team notice me. Then I used redis to keep token and using it in 30minute before re-generated.
 I only modified session.py file and keep others.
 Bonus, I created 2 methods to get history stock price and options straddle as Yahoo Options.
+
+If this script is good please me coffee (https://www.patreon.com/donaldit) or need implement a script donald.nguyen.it@gmail.com
+
 ## Installation
 ```bash
 pip install pip install tdameritrade-ext --upgrade
